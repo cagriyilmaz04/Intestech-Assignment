@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Intestech Assignment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mail_adresiniz">Mail Adresiniz</string>
+    <string name="sifreniz">Şifreiniz</string>
+    <string name="Giriş">Button</string>
+    <string name="giris_yap">Giriş Yap</string>
+    <string name="hesabiniz_yok_mu">Hesabınız Yok Mu?</string>
+    <string name="bos_yerleri_doldur">Boş Yerleri Doldurunuz</string>
+    <string name="devam_et">Devam Et</string>
+    <string name="sifre_tekrar">Şifre(Tekrar)</string>
+    <string name="dosya_a">Dosya Aç</string>
+    <string name="hesab_m">Hesabım</string>
+    <string name="duzenle">Düzenle</string>
+    <string name="sifreniz_account_fragment">Şifreniz:</string>
+    <string name="kullanici_adiniz">Kullanıcı Adınız Soyadınız:</string>
+    <string name="kaydet">Kaydet</string>
+    <string name="sifremi_unuttum">Şifremi Unuttum</string>
+    <string name="dosya_adi">Dosya Adı</string>
+    <string name="olusturan">Oluşturan:</string>
+    <string name="klasor_yeni_ad">Klasörün Yeni Adı</string>
+    <string name="uyari">Uyarı</string>
+    <string name="silmek_istediginize">"Bu görseli silmek istediğinize emin misiniz?"</string>
+    <string name="evet">Evet</string>
+    <string name="hayir">Hayır</string>
+    <string name="gorsel_silindi">Görsel Silindi</string>
+    <string name="basarili">Başarılı</string>
+    <string name="bos_birakamazsiniz">Boş Bırakamazsınız</string>
+    <string name="aciklama_giriniz">Açıklama Giriniz</string>
+    <string name="basariyla_guncellendi">Başarıyla Güncellendi</string>
+    <string name="bir_degisiklik_yapmadınız">Bir Değişiklik Yapmadınız</string>
+    <string name="gonder">Gönder</string>
+    <string name="beni_hatirla">Beni Hatırla</string>
+    <string name="sonra_tiklayin">Boş Alanları Doldurduktan Sonra Tıklayınız</string>
+
+</resources>

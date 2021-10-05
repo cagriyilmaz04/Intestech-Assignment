@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".RegisterFragment">
+
+
+    <EditText
+        android:id="@+id/text_mail"
+        android:layout_width="296dp"
+        android:layout_height="70dp"
+        android:background="@drawable/edit_text_background"
+        android:ems="10"
+        android:hint="@string/mail_adresiniz"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/edit_password_register"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_kayit_ol" />
+
+    <EditText
+        android:id="@+id/edit_password_register"
+        android:layout_width="296dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/edit_text_background"
+        android:ems="10"
+        android:hint="@string/sifreniz"
+        android:inputType="textPassword"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/edit_password_register_again"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_kayit_ol" />
+
+    <EditText
+        android:id="@+id/edit_password_register_again"
+        android:layout_width="296dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/edit_text_background"
+        android:ems="10"
+        android:hint="@string/sifre_tekrar"
+        android:inputType="textPassword"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/edit_text_kisi_adi"
+        app:layout_constraintEnd_toEndOf="@+id/edit_password_register"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edit_password_register" />
+
+    <Button
+        android:id="@+id/button_devam_et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="188dp"
+        android:background="@drawable/button_background"
+        android:text="@string/devam_et"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/edit_text_kisi_adi"
+        android:layout_width="296dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/edit_text_background"
+        android:ems="10"
+        android:hint="@string/kullanici_adiniz"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/button_devam_et"
+        app:layout_constraintEnd_toEndOf="@+id/edit_password_register_again"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edit_password_register_again" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_kayit_ol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

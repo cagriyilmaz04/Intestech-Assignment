@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "273645302967",
+    "project_id": "intestechassignment",
+    "storage_bucket": "intestechassignment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273645302967:android:16a9e542f1ec02bde18932",
+        "android_client_info": {
+          "package_name": "com.example.intestechassignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273645302967-1pmdjdqfj0n0at8pmr9la4h7plhd576m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.intestechassignment",
+            "certificate_hash": "eb8e8ca2d51d21eec010437bbc4d3cd8c83b9a9f"
+          }
+        },
+        {
+          "client_id": "273645302967-op4bbth6petd4asf0ttlgbtos8nj6jhp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxaGmO2Au7FFRvD3SExZbtW7a6_jQupD4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273645302967-op4bbth6petd4asf0ttlgbtos8nj6jhp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

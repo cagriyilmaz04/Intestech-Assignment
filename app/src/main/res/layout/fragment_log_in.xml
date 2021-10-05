@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".LogInFragment">
+
+    <EditText
+        android:id="@+id/editTextMail"
+        android:layout_width="352dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/edit_text_background"
+        android:ems="10"
+        android:hint="@string/mail_adresiniz"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextSifre"
+        android:layout_width="348dp"
+        android:layout_height="54dp"
+
+        android:layout_marginTop="64dp"
+        android:background="@drawable/edit_text_background"
+        android:ems="10"
+        android:hint="@string/sifreniz"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/editTextMail"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="@+id/editTextMail"
+        app:layout_constraintTop_toBottomOf="@+id/editTextMail" />
+
+    <Button
+        android:id="@+id/button_giris"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_background"
+        android:text="@string/giris_yap"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/text_hesab_yok_mu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextSifre"
+        app:layout_constraintVertical_bias="0.385" />
+
+    <TextView
+        android:id="@+id/textView_beni_hatirla"
+        android:layout_width="199dp"
+        android:layout_height="40dp"
+        android:text="@string/beni_hatirla"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/text_hesab_yok_mu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_giris" />
+
+    <TextView
+        android:id="@+id/text_hesab_yok_mu"
+        android:layout_width="208dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="332dp"
+        android:gravity="center"
+        android:text="@string/hesabiniz_yok_mu"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_sifre_unuttum"
+        android:layout_width="193dp"
+        android:layout_height="42dp"
+        android:gravity="center"
+        android:text="@string/sifremi_unuttum"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_hesab_yok_mu"
+        app:layout_constraintVertical_bias="0.103" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

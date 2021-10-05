@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/user_duzenle"
+        android:title="Düzenle"
+        android:icon="@drawable/edit"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/user_sil"
+        android:title="Sil"
+        android:icon="@drawable/ic_baseline_delete_24"
+        app:showAsAction="always">
+
+    </item>
+
+
+</menu>
