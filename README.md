@@ -1,5 +1,5 @@
 # Intestech-Assignment
-Hello there, in this app, you can register. When you register,You will get an e-mail about verification, create a file and upload picture from gallery or camera. You can change files name that you created,and you can change your name and password as well. Users can see all files and pictures that created by the other users.
+Hello there, in this app, you can register. When you register,You will get an e-mail about verification, create a file and upload picture from gallery or camera. You can change files name that you created,and you can change your name and password as well. Users can see all files and pictures that created by the other users.   </br>
 ![resim1](https://user-images.githubusercontent.com/79268497/136121170-7185f749-f9ff-4843-8f0a-1ad4947ad77c.png)
 ![resim2](https://user-images.githubusercontent.com/79268497/136121174-3f47f851-55d8-41bc-948f-dd695d020b3b.png)
 ![resim3](https://user-images.githubusercontent.com/79268497/136121176-906aa626-297a-4b5d-9cc8-590425fe785f.png)
