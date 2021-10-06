@@ -3,9 +3,9 @@ Hello there, in this app, you can register. When you register,You will get an e-
 
 # Libraries and Structures Used in the Application
 
--Firebase (Authentication,Storage,Real Time Database)
--Coroutine
--Navigation and SafeArgs
--Easy Permissions
--Shared Preferences
--Picasso
+-Firebase (Authentication,Storage,Real Time Database) </br>
+-Coroutine </br>
+-Navigation and SafeArgs </br>
+-Easy Permissions </br>
+-Shared Preferences </br>
+-Picasso </br>
